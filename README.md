@@ -49,3 +49,7 @@ This is a community port, meaning that there is no official support and extensio
 * Fingerprint
 * FM radio
 * IR remote control
+
+## Issues
+
+https://github.com/sailfish-on-ginkgo/droid-config-ginkgo/issues
