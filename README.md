@@ -12,7 +12,7 @@ This is a community port, meaning that there is no official support and extensio
 
 ## How to install
 
-1. download sailfishos zip from [here](https://mega.nz/folder/Dwo3zAwD#1-hSQULBE3H1j8RMOzzopw).    
+1. download sailfishos zip from [here](https://github.com/sailfish-on-ginkgo/main/releases/tag/0.4.2.21).    
 2. download Lineageos 16.0 from [here](https://androidfilehost.com/?fid=4349826312261639609).
 3. download twrp from [here](https://dl.twrp.me/ginkgo/).
 4. revert to android9 base miui, and install twrp.
