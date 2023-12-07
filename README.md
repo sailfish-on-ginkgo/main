@@ -53,3 +53,7 @@ This is a community port, meaning that there is no official support and extensio
 ## Issues
 
 https://github.com/sailfish-on-ginkgo/droid-config-ginkgo/issues
+
+## Buy me a coffee
+
+Buy me a coffee to keep this project, thanks! https://paypal.me/birdzhang
