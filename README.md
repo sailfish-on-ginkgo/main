@@ -12,12 +12,12 @@ This is a community port, meaning that there is no official support and extensio
 
 ## How to install
 
-1. download sailfishos zip from [here](https://github.com/sailfish-on-ginkgo/main/releases/tag/0.4.2.21).    
+1. download sailfishos zip from [here](https://github.com/sailfish-on-ginkgo/main/releases/).    
 2. download Lineageos 16.0 from [here](https://androidfilehost.com/?fid=4349826312261639609).
 3. download twrp from [here](https://dl.twrp.me/ginkgo/).
 4. revert to android9 base miui, and install twrp.
 5. install Lineageos 16.0 and boot up to check if everything is ok.
-6. reboot to fastboot mode, use `fastboot format:ext4 userdata` to format userdata partition.
+6. ~~reboot to fastboot mode, use `fastboot format:ext4 userdata` to format userdata partition.~~
 7. reboot to recovery mode, send sailfishos zip to your device.
 8. flash it use twrp, and reboot.
 
@@ -26,6 +26,7 @@ This is a community port, meaning that there is no official support and extensio
 
 ### Working
 
+* Audio
 * Display
 * Touch, multitouch
 * Calls
@@ -44,7 +45,6 @@ This is a community port, meaning that there is no official support and extensio
 
 ### Not Working
 
-* Audio
 * Camera
 * Fingerprint
 * FM radio
