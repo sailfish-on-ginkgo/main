@@ -17,7 +17,7 @@ This is a community port, meaning that there is no official support and extensio
 3. download twrp from [here](https://dl.twrp.me/ginkgo/).
 4. revert to android9 base miui, and install twrp.
 5. install Lineageos 16.0 and boot up to check if everything is ok.
-6. ~~reboot to fastboot mode, use `fastboot format:ext4 userdata` to format userdata partition.~~
+6. reboot to fastboot mode, use `fastboot format:ext4 userdata` to format userdata partition. Need this for fingerprint.
 7. reboot to recovery mode, send sailfishos zip to your device.
 8. flash it use twrp, and reboot.
 
@@ -42,11 +42,11 @@ This is a community port, meaning that there is no official support and extensio
 * Sensors
 * Vibrator
 * SD card (not tested)
-
+* Fingerprint
+  
 ### Not Working
 
 * Camera
-* Fingerprint
 * FM radio
 * IR remote control
 
