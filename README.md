@@ -21,6 +21,14 @@ This is a community port, meaning that there is no official support and extensio
 7. reboot to recovery mode, send sailfishos zip to your device.
 8. flash it use twrp, and reboot.
 
+### How to install waydroid
+
+1. add chum repo `ssu ar sailfishos-chum https://repo.sailfishos.org/obs/sailfishos:/chum/4.6_aarch64/`, be sure you are using the 4.6.0.11 sailfishos.
+2. `zypper ref` and `zypper in waydroid-runner waydroid-gbinder-config-hybris`, you can also install them via `Chum GUI`
+3. run `waydroid init`, this takes some minutes to download lineageos images.
+4. run `systemctl disable --now dnsmasq`
+5. replace all `aidl2` to `aidl3` in `/etc/gbinder.d/anbox-hybris.conf`
+6. open Waydroid from launcher, it should be working now
 
 ## Current state
 
@@ -43,12 +51,17 @@ This is a community port, meaning that there is no official support and extensio
 * Vibrator
 * SD card (not tested)
 * Fingerprint
+* Waydroid
   
 ### Not Working
 
 * Camera
 * FM radio
 * IR remote control
+
+
+
+
 
 ## Issues
 
