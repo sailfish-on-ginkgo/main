@@ -28,7 +28,8 @@ This is a community port, meaning that there is no official support and extensio
 3. run `waydroid init`, this takes some minutes to download lineageos images.
 4. run `systemctl disable --now dnsmasq`
 5. replace all `aidl2` to `aidl3` in `/etc/gbinder.d/anbox-hybris.conf`
-6. open Waydroid from launcher, it should be working now
+6. comment or delete `lxc.apparmor.profile = unconfined` in `/var/lib/waydroid/lxc/waydroid/config`
+7. open Waydroid from launcher, it should be working now
 
 ## Current state
 
