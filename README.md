@@ -18,8 +18,10 @@ This is a community port, meaning that there is no official support and extensio
 4. revert to android9 base miui, and install twrp.
 5. install Lineageos 16.0 and boot up to check if everything is ok.
 6. reboot to fastboot mode, use `fastboot format:ext4 userdata` to format userdata partition. Need this for fingerprint.
-7. reboot to recovery mode, send sailfishos zip to your device.
-8. flash it use twrp, and reboot.
+   
+   Or you can use TWRP, go to "Wipe -> Advanced Wipe -> Select `Data` and click Repair or Change File System -> Change File System -> EXT4"
+8. reboot to recovery mode, send sailfishos zip to your device.
+9. flash it use twrp, and reboot.
 
 ### How to install waydroid
 
