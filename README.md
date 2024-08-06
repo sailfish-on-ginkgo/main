@@ -31,7 +31,8 @@ This is a community port, meaning that there is no official support and extensio
 4. run `systemctl disable --now dnsmasq`
 5. replace all `aidl2` to `aidl3` in `/etc/gbinder.d/anbox-hybris.conf`
 6. comment or delete `lxc.apparmor.profile = unconfined` in `/var/lib/waydroid/lxc/waydroid/config`
-7. open Waydroid from launcher, it should be working now
+7. `systemctl restart waydroid-container`
+8. open Waydroid from launcher, it should be working now
 
 ## Current state
 
