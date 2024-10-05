@@ -56,10 +56,11 @@ This is a community port, meaning that there is no official support and extensio
 * SD card (not tested)
 * Fingerprint
 * Waydroid
+* Camera
   
 ### Not Working
 
-* Camera
+* Audio record app
 * FM radio
 * IR remote control
 
