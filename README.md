@@ -15,7 +15,7 @@ This is a community port, meaning that there is no official support and extensio
 1. download sailfishos zip from [here](https://github.com/sailfish-on-ginkgo/main/releases/).    
 2. download Lineageos 16.0 from [here](https://androidfilehost.com/?fid=4349826312261639609), **Audio is not working on others**.
 3. download twrp from [here](https://dl.twrp.me/ginkgo/).
-4. revert to android9 base miui, and install twrp.
+4. revert to android9 base miui, and install twrp.(Mine is ginkgo_global_images_V11.0.12.0.PCOMIXM_20201119.0000.00_9.0_global_37804edbcb.tgz)
 5. install Lineageos 16.0 and boot up to check if everything is ok.
 6. reboot to fastboot mode, use `fastboot format:ext4 userdata` to format userdata partition. Need this for fingerprint.
    
@@ -71,6 +71,9 @@ This is a community port, meaning that there is no official support and extensio
 ## Issues
 
 https://github.com/sailfish-on-ginkgo/droid-config-ginkgo/issues
+
+join telegram: @sailfish_on_ginkgo
+
 
 ## Buy me a coffee
 
