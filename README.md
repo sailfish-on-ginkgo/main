@@ -30,7 +30,7 @@ This is a community port, meaning that there is no official support and extensio
 3. `zypper ref` and `zypper in waydroid-runner waydroid-gbinder-config-hybris`, you can also install them via `Chum GUI`
 4. run `waydroid init`, this takes some minutes to download lineageos images.
 5. run `systemctl disable --now dnsmasq`
-6. **replace all `aidl2` to `aidl3` in `/etc/gbinder.d/anbox-hybris.conf`** (not needed now)
+6. ~~replace all `aidl2` to `aidl3` in `/etc/gbinder.d/anbox-hybris.conf`~~ (not needed now)
 7. comment or delete `lxc.apparmor.profile = unconfined` in `/var/lib/waydroid/lxc/waydroid/config`
 8. `systemctl restart waydroid-container`
 9. open Waydroid from launcher, it should be working now.
