@@ -28,7 +28,7 @@ This is a community port, meaning that there is no official support and extensio
 1. add chum repo `ssu ar sailfishos-chum https://repo.sailfishos.org/obs/sailfishos:/chum/4.6_aarch64/`, be sure you are using after 4.6.0.11 sailfishos.
    (For now, there is no https://repo.sailfishos.org/obs/sailfishos:/chum/5.0_aarch64, so you need use old 4.6 version on sailfishos 5.0)
 3. `zypper ref` and `zypper in waydroid-runner waydroid-gbinder-config-hybris`, you can also install them via `Chum GUI`
-4. run `waydroid init`, this takes some minutes to download lineageos images.
+4. run `waydroid init`, this takes some minutes to download lineageos images. Already have system.img and vendor.img? use [this way to init ](https://docs.waydro.id/faq/using-custom-waydroid-images)
 5. run `systemctl disable --now dnsmasq`
 6. ~~replace all `aidl2` to `aidl3` in `/etc/gbinder.d/anbox-hybris.conf`~~ (not needed now)
 7. comment or delete `lxc.apparmor.profile = unconfined` in `/var/lib/waydroid/lxc/waydroid/config`
