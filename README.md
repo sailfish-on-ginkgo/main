@@ -58,12 +58,13 @@ This is a community port, meaning that there is no official support and extensio
 * Fingerprint
 * Waydroid
 * Camera
-  
+* IR remote control (Working on Waydroid, tested by @clasxg)
+    
 ### Not Working
 
 * Audio record app
 * FM radio
-* IR remote control
+
 
 
 
