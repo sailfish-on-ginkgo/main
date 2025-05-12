@@ -25,15 +25,15 @@ This is a community port, meaning that there is no official support and extensio
 
 ### How to install waydroid
 
-1. add chum repo `ssu ar sailfishos-chum https://repo.sailfishos.org/obs/sailfishos:/chum/4.6_aarch64/`, be sure you are using after 4.6.0.11 sailfishos.
-   (For now, there is no https://repo.sailfishos.org/obs/sailfishos:/chum/5.0_aarch64, so you need use old 4.6 version on sailfishos 5.0)
-3. `zypper ref` and `zypper in waydroid-runner waydroid-gbinder-config-hybris`, you can also install them via `Chum GUI`
-4. run `waydroid init`, this takes some minutes to download lineageos images. Already have system.img and vendor.img? use [this way to init ](https://docs.waydro.id/faq/using-custom-waydroid-images)
-5. run `systemctl disable --now dnsmasq`
-6. ~~replace all `aidl2` to `aidl3` in `/etc/gbinder.d/anbox-hybris.conf`~~ (not needed now)
-7. comment or delete `lxc.apparmor.profile = unconfined` in `/var/lib/waydroid/lxc/waydroid/config`
-8. `systemctl restart waydroid-container`
-9. open Waydroid from launcher, it should be working now.
+1. add chum repo `ssu ar sailfishos-chum https://repo.sailfishos.org/obs/sailfishos:/chum/5.0_aarch64/`, be sure you are using 5.0 version sailfishos.
+   (If you are using 5.1 or greater version, check if your sfos version https://repo.sailfishos.org/obs/sailfishos:/chum/ exist or not, and chang the url to correct one.)
+2. `zypper ref` and `zypper in waydroid-runner waydroid-gbinder-config-hybris`, you can also install them via `Chum GUI`
+3. run `waydroid init`, this takes some minutes to download lineageos images. Already have system.img and vendor.img? use [this way to init ](https://docs.waydro.id/faq/using-custom-waydroid-images)
+4. run `systemctl disable --now dnsmasq`
+5. ~~replace all `aidl2` to `aidl3` in `/etc/gbinder.d/anbox-hybris.conf`~~ (not needed now)
+6. ~~comment or delete `lxc.apparmor.profile = unconfined` in `/var/lib/waydroid/lxc/waydroid/config`~~ (not needed now)
+7. `systemctl restart waydroid-container`
+8. open Waydroid from launcher, it should be working now.
 
 ## Current state
 
