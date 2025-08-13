@@ -23,7 +23,6 @@ This is a community port, meaning that there is no official support and extensio
    Or you can use TWRP, go to "Wipe -> Advanced Wipe -> Select `Data` and click Repair or Change File System -> Change File System -> EXT4"
 8. Reboot to recovery mode, send sailfishos zip to your device.
 9. Flash it use twrp, then flash `fw-vendor_ginkgo_miui_GINKGOGlobal_V11.0.11.0.PCOMIXM_793f382e0d_9.0.zip` and reboot.
-10. Check sound is working or not, if it's not working, flash [this vendor](https://github.com/TryHardDood/mi-vendor-updater/releases/download/ginkgo_global-stable/fw-vendor_ginkgo_miui_GINKGOGlobal_V11.0.11.0.PCOMIXM_793f382e0d_9.0.zip) via twrp. If sound still not works, drop your issue to https://github.com/sailfish-on-ginkgo/main/issues/1 
 
 ### How to install waydroid
 
@@ -66,8 +65,6 @@ This is a community port, meaning that there is no official support and extensio
 ### Not Working
 
 * FM radio
-
-
 
 
 
