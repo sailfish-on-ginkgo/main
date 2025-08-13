@@ -14,14 +14,15 @@ This is a community port, meaning that there is no official support and extensio
 
 1. Download sailfishos zip from [here](https://github.com/sailfish-on-ginkgo/main/releases/).    
 2. Download Lineageos 16.0 from [here](https://androidfilehost.com/?fid=4349826312261639609) or [here](https://github.com/sailfish-on-ginkgo/main/releases/download/0.5.0.0.55/lineage-16.0-20191121-UNOFFICIAL-ginkgo.zip) , **Audio is not working with others**.
-3. Download twrp from [here](https://dl.twrp.me/ginkgo/).
-4. Revert to android9 base miui, and install twrp.(Mine is ginkgo_global_images_V11.0.12.0.PCOMIXM_20201119.0000.00_9.0_global_37804edbcb.tgz)
-5. Install Lineageos 16.0 and boot up to check if everything is ok.
-6. Reboot to fastboot mode, use `fastboot format:ext4 userdata` to format userdata partition. Need this for fingerprint.
+3. Download the magic vendor from [here](https://github.com/sailfish-on-ginkgo/main/releases/download/0.5.0.0.55/fw-vendor_ginkgo_miui_GINKGOGlobal_V11.0.11.0.PCOMIXM_793f382e0d_9.0.zip)
+4. Download twrp from [here](https://dl.twrp.me/ginkgo/).
+5. Revert to android9 base miui, and install twrp.(Mine is ginkgo_global_images_V11.0.12.0.PCOMIXM_20201119.0000.00_9.0_global_37804edbcb.tgz)
+6. Install Lineageos 16.0 and boot up to check if everything is ok.
+7. Reboot to fastboot mode, use `fastboot format:ext4 userdata` to format userdata partition. Need this for fingerprint.
    
    Or you can use TWRP, go to "Wipe -> Advanced Wipe -> Select `Data` and click Repair or Change File System -> Change File System -> EXT4"
 8. Reboot to recovery mode, send sailfishos zip to your device.
-9. Flash it use twrp, and reboot.
+9. Flash it use twrp, then flash `fw-vendor_ginkgo_miui_GINKGOGlobal_V11.0.11.0.PCOMIXM_793f382e0d_9.0.zip` and reboot.
 10. Check sound is working or not, if it's not working, flash [this vendor](https://github.com/TryHardDood/mi-vendor-updater/releases/download/ginkgo_global-stable/fw-vendor_ginkgo_miui_GINKGOGlobal_V11.0.11.0.PCOMIXM_793f382e0d_9.0.zip) via twrp. If sound still not works, drop your issue to https://github.com/sailfish-on-ginkgo/main/issues/1 
 
 ### How to install waydroid
@@ -60,10 +61,10 @@ This is a community port, meaning that there is no official support and extensio
 * Waydroid
 * Camera
 * IR remote control (Working on Waydroid, tested by @clasxg)
+* Audio record app (fixed with the magic vendor)
     
 ### Not Working
 
-* Audio record app
 * FM radio
 
 
