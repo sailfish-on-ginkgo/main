@@ -21,8 +21,8 @@ This is a community port, meaning that there is no official support and extensio
 7. Reboot to fastboot mode, use `fastboot format:ext4 userdata` to format userdata partition. Need this for fingerprint.
    
    Or you can use TWRP, go to "Wipe -> Advanced Wipe -> Select `Data` and click Repair or Change File System -> Change File System -> EXT4"
-8. Reboot to recovery mode, flash `fw-vendor_ginkgo_miui_GINKGOGlobal_V11.0.11.0.PCOMIXM_793f382e0d_9.0.zip`.
-9. Reboot to recovery mode, send sailfishos zip to your device or use adb sideload, flash sailfishos zip file.
+8. Reboot to recovery mode, flash `fw-vendor_ginkgo_miui_GINKGOGlobal_V11.0.11.0.PCOMIXM_793f382e0d_9.0.zip`, then go back.
+9. Send sailfishos zip to your device or use adb sideload, flash sailfishos zip file.
 10. Reboot to system.
 
 ### How to install waydroid
